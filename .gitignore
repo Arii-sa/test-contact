@@ -1,0 +1,18 @@
+# ===== Docker/MySQL データ =====
+docker/mysql/data/
+
+# ===== Laravel 環境ファイル =====
+.env
+
+# ===== キャッシュ・ログ =====
+storage/
+bootstrap/cache/
+*.log
+
+# ===== OS/エディタの一時ファイル =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+
