@@ -19,5 +19,8 @@ Route::post('/thanks', [AuthController::class, 'store']);
 
 Route::middleware('auth')->group(function() {
     Route::get('/index',[AuthController::class, 'index']);
+    Route::get('/search', [AuthController::class, 'search']);
+    Route::post('/delete', [AuthController::class, 'destroy']);
+    Route::post('/export', [AuthController::class, 'export']);
 });
 
