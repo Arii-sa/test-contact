@@ -124,7 +124,7 @@
 
                             <div class="modal-form__group">
                                 <label class="modal-form__label" for="">お問い合わせ内容</label>
-                                <p>{{$contact->category->content}}</p>
+                                <p>{{$contact->detail}}</p>
                             </div>
                             <input type="hidden" name="id" value="{{$contact->id}}">
                             <input class="modal-form__delete-btn btn" type="submit" value="削除">
